@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jRange : jQuery Range Selector</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="../jquery.range.css">
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <section class="body demo">
+        <div class="container">
+            <div class="demo-container clearfix">
+            	<div class="demo-section">
+            		
+            		<div class="demo-output">
+            			<input class="single-slider" type="hidden" value="25"/>
+            		</div>
+            	</div>
+            	<div class="demo-section">
+            		<div class="demo-output">
+            			<input class="range-slider" type="hidden" value="2012,2015"/>
+            		</div>
+            	</div>
+
+
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="../jquery.range.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.single-slider').jRange({
+                from: 0,
+                to: 100,
+                step: 1,
+                scale: [0,25,50,75,100],
+                format: '%s',
+                width: 300,
+                showLabels: true
+            });
+            $('.range-slider').jRange({
+                from: 2012,
+                to: 2015,
+                step: 1,
+                scale: [2012,2013,2014,2015],
+                format: '%s',
+                width: 300,
+                showLabels: true,
+                isRange : true
+            });
+        });
+    </script>
+</body>
+</html>
