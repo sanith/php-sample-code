@@ -12,6 +12,7 @@
     <table width="100%" border="0" cellspacing="2" cellpadding="2">
   <tr>
     <!-- testing the git command for GUI -->
+    <!-- testing the git command for GUI 2 -->
     </tr>
   <tr>
     <td width="15%">Username</td>
