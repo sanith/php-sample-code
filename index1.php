@@ -13,7 +13,6 @@
   <tr>
     <!-- testing the git command for GUI -->
     <!-- testing the git command for GUI 2 -->
-    <!-- testing the git command for GUI 2 -->
     </tr>
   <tr>
     <td width="15%">Username</td>
