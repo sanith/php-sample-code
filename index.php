@@ -1,4 +1,5 @@
 <?php
+//testing the git command
 error_reporting(E_ALL);
 $dbhost           = 'mysql.healthcare.netscribes.net';
 $dbuser           = 'healthcare_root';
