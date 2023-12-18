@@ -2,6 +2,7 @@
 //testing the git command
 //second push working fine
 //testing the pull functionality
+//testing the second pull
 error_reporting(E_ALL);
 $dbhost           = 'mysql.healthcare.netscribes.net';
 $dbuser           = 'healthcare_root';
