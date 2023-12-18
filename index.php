@@ -1,5 +1,6 @@
 <?php
 //testing the git command
+//second push working fine
 error_reporting(E_ALL);
 $dbhost           = 'mysql.healthcare.netscribes.net';
 $dbuser           = 'healthcare_root';
